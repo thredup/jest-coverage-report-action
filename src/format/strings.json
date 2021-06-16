@@ -1,8 +1,8 @@
 {
     "icons": {
         "emoji": {
-            "increaseIcon": "🔻",
-            "decreaseIcon": "🔽",
+            "increaseIcon": "🔼",
+            "decreaseIcon": "🔻",
             "errorIcon": "❌",
             "coverageGood": "🟢",
             "coverageNormal": "🟡",
