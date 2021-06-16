@@ -1,37 +1,31 @@
 {
     "icons": {
         "emoji": {
-            "babyChick": "🐤",
-            "increaseIcon": "🔼",
+            "increaseIcon": "🔻",
             "decreaseIcon": "🔽",
             "errorIcon": "❌",
             "coverageGood": "🟢",
             "coverageNormal": "🟡",
             "coverageBad": "🔴",
-            "new": "🌑",
-            "warning": "⚠️"
+            "new": "🌑"
         },
         "ascii": {
-            "babyChick": "",
             "increaseIcon": "",
             "decreaseIcon": "",
             "errorIcon": "[ !!! ]",
             "coverageGood": "(+)",
             "coverageNormal": "(~)",
             "coverageBad": "(-)",
-            "new": "",
-            "warning": ""
+            "new": ""
         },
         "unicode": {
-            "babyChick": "",
             "increaseIcon": "↑",
             "decreaseIcon": "↓",
             "errorIcon": "×",
             "coverageGood": "(+)",
             "coverageNormal": "(~)",
             "coverageBad": "(-)",
-            "new": "",
-            "warning": ""
+            "new": ""
         }
     },
     "testsFail": "Test suite run failed",
@@ -59,11 +53,11 @@
     },
     "details": {
         "newFiles": {
-            "summary": "New files",
-            "heading": "Coverage of new files {{ babyChick }}"
+            "summary": "🐤 New files",
+            "heading": "Coverage of new files"
         },
         "decreasedCoverageFiles": {
-            "summary": "Coverage decreased for the following files {{ warning }}",
+            "summary": "⚠️ Coverage decreased for the following files",
             "heading": "Reduced coverage"
         },
         "columnHeaders": [
