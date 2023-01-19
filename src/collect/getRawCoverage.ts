@@ -18,6 +18,7 @@ export const getRawCoverage = async (
     | { success: false; failReason: FailReason.TESTS_FAILED; error?: Error }
 > => {
     if (branch) {
+        await exec('git config --global --add safe.directory /github/workspace');
         await exec(`git checkout -f ${branch}`);
     }
 
